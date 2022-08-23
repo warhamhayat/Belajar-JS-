@@ -12,7 +12,7 @@ const angka = [-1, 2,7, -4,3, 5,-8,-5,6,9]
 // filter
 //  mencari angka >= 3
 const newAngka = []
-for(let i = 0; i <  angka.length; i++){
+for(let i = 0; i <  angka.length; i++){ //klo ini pakai looping
      if (angka[i] >= 3){
         newAngka.push(angka[i])
      }
@@ -31,7 +31,7 @@ console.log(newAngka2);
 
 
 
-//Map
+//Map a/ petahkan semua elemen dengan fungsi baru
 // kalikan semua angka dengan 2
 
 const mapAngka  = angka.map(function(a){
