@@ -26,17 +26,19 @@ const tampilNama2 = nama => {
 const tampilNama3 = nama => `helooo ${nama}`;
 
 
-// arrow function tampa parameter, wajib menulis kuungnya
+// arrow function tampa parameter, wajib menulis kurungnya
 const tampilnama4 = () => `helloooo ham`;
+console.log(tampilnama4())
 
 //arrow function dengan menggunakan function map
 let mhs =["budi hartono", "woody", "warham"]
 
 let jumlahHuruf = mhs.map(function(nama){
-    return nama.length
+    return nama.toLocaleUpperCase()
 });
 
 console.log(jumlahHuruf);
+
 
 // kita ubah menjadi arrow functionn
 let jumlahHuruf1 = mhs.map(nama => nama.length);
@@ -46,6 +48,10 @@ console.log(jumlahHuruf1);
 // biar dianggap object kita bungkus pakai () pada kurung kurawal
 let jumlahHuruf2 = mhs.map(nama =>( {nama}));
 console.log(jumlahHuruf2);
+console.log(jumlahHuruf2[1])
+const isinyaApa = jumlahHuruf2[1]
+console.log(isinyaApa)
+
 
 // biar objectnya lengkap
 

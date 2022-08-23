@@ -63,6 +63,10 @@ const Mahasiswa2 = function (){
 // untuk itu kita gunakan arrow function krna arrow function tdk punya this global
     setInterval(()=>{
         console.log(this.umur++)
-    },500) //kare dia nggap punya konsep this maka dian mencari ke lexical scopenya
+    },100) //kare dia nggap punya konsep this maka dian mencari ke lexical scopenya
 }
-const Ham = new Mahasiswa2()
+// const Ham = new Mahasiswa2()
+
+setTimeout(()=>{
+    console.log("this.umur++")
+},1000)

@@ -10,6 +10,9 @@
 //         }
 // }
 
+
+
+// constructor function
 function mahasiswa (nama, energi){
     
     //let this = Object.create(mahasiswa.protorype) :  function declaration 
@@ -25,6 +28,8 @@ function mahasiswa (nama, energi){
     // return this //terjadi dibelakan layar  
 }
 
+
+// klo menggukan contructor function. makay keywordnya "new"
 const ipul = new mahasiswa ("ipul",10)
 const en = ipul.energi
 console.log(ipul)
@@ -61,7 +66,7 @@ class mahasiswa1 {
         this.energi = energi
     }
     // metthodnya
-    tidur = function(jam){
+    tidur (jam){
         this.energi += jam
     }
     makan = function(porsi){
@@ -72,7 +77,13 @@ class mahasiswa1 {
 // versi kelas ini dibelakang layar menggukan konsep prototype diatas (konsep sebarnya) yang terjadi
  
 const nurdin = new mahasiswa1("nurdi",10)
+
+console.log(nurdin.makan(3))
 console.log(nurdin);
+console.log(nurdin.tidur(5))
+console.log(nurdin.nama)
+
+
 
 //  apapun didalam  javas crip sebenarnya otu object.
 //karna dia object, pasti punya protorype didalamnya.

@@ -5,7 +5,7 @@
 
 function kerjakanTugas (matakuliah, selesai){
     console.log(`mulai mengerjakan tugas ${matakuliah} ....`);
-    selesai()
+    selesai() //meupakan function
 } 
 
 function selesai (){
@@ -26,8 +26,7 @@ setTimeout(function(){
 
  //pada parameter pertamanya adalah function, keduanya int untuk mentimpan waktu tunggu
  // maka setTimeoutnya adalah "higherorder function";
-  
- 
+
 
 // contoh lain ketika kita punya function yang return valuenya dalah function lagi 
 
