@@ -7,8 +7,8 @@ function penjumlahanPerkalian ( a, b){
 }
 
 const jmlah = penjumlahanPerkalian(2,4)//[0]
-console.log(jmlah)
-console.log(jmlah[0])//semisal juma ingin satu
+console.log(jmlah) // [6 , 8/
+console.log(jmlah[0]) //semisal juma ingin satu
 
 //kalo menggunakan destructuring
 //lansung saja bikin variable yang isinya juga array
@@ -51,9 +51,9 @@ const mhs1 = {
     umur :22,
     email : 'warham@gmail.com'
 }
- 
-function cetakmhhs(nama,umur){ //jadi disini saya butuh parameter nama dan umur
-    return `hallo, nama saya ${nama}` 
+
+function cetakmhhs(na, um){ //jadi disini saya butuh parameter nama dan umur
+    return `hallo, nama saya ${na} saya berumur ${umur}` 
 }
 // jadi kalo saya mau jalankan, saya ambil isi parameternya dengan mgambil object mhs
 

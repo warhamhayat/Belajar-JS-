@@ -133,12 +133,12 @@ console.log(l) // jadi nama variable berganti
 //kalo misalnya didalam distructaring "pekerjaan"
 
 const pegawai ={
-    nam : "waarham",
+    na : "waarham",
     um :22,
     em : "warhamhayat@gmail.com",
 } 
-// const {nam,um,em,peker = "web developer"} =pegawai //jadi kita masukkan default value
-// console.log(peker)
+const {na,um,em,peker = "web developer"} =pegawai //jadi kita masukkan default value
+console.log(peker)
 
 //kalo pakai rest varameter
 
