@@ -48,7 +48,7 @@ console.log(certakUrl(userName));
 var nama1 =" warham hayat"
 var userName2 = "@warhma14"
 
-function certakUr3 (){
+function certakUr3 (){      
     console.log(arguments[0]) // karena parameter tdk isi, maka dodi masuk di argument
     var igUrl = "http://instagram.com/"
     return igUrl + arguments[0];
@@ -62,5 +62,3 @@ console.log(certakUr3("dodi"))
     //window
     // argument
     // hoisting
-
-    

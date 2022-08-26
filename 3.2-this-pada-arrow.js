@@ -65,8 +65,5 @@ const Mahasiswa2 = function (){
         console.log(this.umur++)
     },100) //kare dia nggap punya konsep this maka dian mencari ke lexical scopenya
 }
-// const Ham = new Mahasiswa2()
+const Ham = new Mahasiswa2()
 
-setTimeout(()=>{
-    console.log("this.umur++")
-},1000)

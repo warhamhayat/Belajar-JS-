@@ -8,7 +8,7 @@ function kerjakanTugas (matakuliah, selesai){
     selesai() //meupakan function
 } 
 
-function selesai (){
+function selesai (){ //callback
     console.log("tugasnya selesai")
 }
 
@@ -61,7 +61,7 @@ console.log(total)
 //contoh klo kita punya looping kaya ini
 for (let i=0; i <=10; i++){
     console.log(i)
-}// ini menjadi inya mengguakan consolo
+}// ini menjadi i nya mengguakan consolo
 
 // klo misalkan saya ingin looping gak 10x jadi 100x, kan berarti kita berubah angka 10 , jadi kan tdk dinami s
 

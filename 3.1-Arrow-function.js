@@ -26,7 +26,7 @@ const tampilNama2 = nama => {
 const tampilNama3 = nama => `helooo ${nama}`;
 
 
-// arrow function tampa parameter, wajib menulis kurungnya
+// arrow function tampa parameter, wajib menulis buka kurungnya
 const tampilnama4 = () => `helloooo ham`;
 console.log(tampilnama4())
 
